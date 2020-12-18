@@ -18,3 +18,10 @@ if (!function_exists('set_active_route')) {
         return Route::is($route) ? 'active' : '';
     }
 }
+
+if (!function_exists('set_textdark_route')) {
+    function set_textdark_route($route)
+    {
+        return Route::is($route) ? 'text-dark font-weight-bold' : '';
+    }
+}
