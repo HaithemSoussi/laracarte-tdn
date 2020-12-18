@@ -8,10 +8,10 @@
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
+                <li class="nav-item {{ set_active_route('root_path') }}">
                     <a class="nav-link text-dark" href="{{ route('root_path') }}">Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item {{ set_active_route('about_path') }}">
                     <a class="nav-link text-dark" href="{{ route('about_path') }}">About</a>
                 </li>
                 <li class="nav-item">
