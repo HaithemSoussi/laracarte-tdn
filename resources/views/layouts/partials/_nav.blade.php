@@ -1,11 +1,10 @@
 <nav class="navbar navbar-expand-md navbar-white bg-white static-top border-bottom shadow-sm">
     <div class="container">
-        <a class="navbar-brand text-dark" href="{{ route('root_path') }}">Laracarte</a>
+        <a class="navbar-brand text-dark" href="{{ route('root_path') }}">{{ config('app.name') }}</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
                 <li class="nav-item {{ set_active_route('root_path') }}">

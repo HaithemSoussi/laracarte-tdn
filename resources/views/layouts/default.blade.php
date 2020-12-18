@@ -16,7 +16,6 @@
 </head>
 
 <body>
-
     @include('layouts/partials/_nav')
 
     @yield('content')
