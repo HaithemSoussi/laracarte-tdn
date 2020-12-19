@@ -3,7 +3,6 @@
 @section('content')
 
     <h1 class="text-center">About</h1>
-
     <div class="container">
         <h2>What is {{ config('app.name') }}?</h2>
         <p>{{ config('app.name') }} is a clone app of <a href="https://laramap.com" target="_blank">Laramap.com</a>.</p>
