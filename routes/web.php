@@ -1,9 +1,5 @@
 <?php
-
-Route::get('/', 'PagesController@home')->name('home');
-
-Route::get('/about', 'PagesController@about')->name('about');
-
-Route::get('/contact', 'ContactsController@create')->name('contact.create');
-
-Route::post('/contact', 'ContactsController@store')->name('contact.store');
+Route::view('/', 'pages.home')->name('home');
+Route::view('/about', 'pages.about')->name('about');
+Route::get('/contact', 'ContactsController@create')->name('contact_path');
+Route::post('/contact', 'ContactsController@store')->name('contact_path');

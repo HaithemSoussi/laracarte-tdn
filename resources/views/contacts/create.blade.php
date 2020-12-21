@@ -7,7 +7,7 @@
                 <p class="text-muted">If you having trouble with this service, please <a
                         href="mailto:{{ config('laracarte.admin_support_email') }}">ask for help</a>.
                 </p>
-                <form action="{{ route('contact.store') }}" method="POST">
+                <form action="{{ route('contact_path') }}" method="POST">
                     @csrf
                     <div class="form-group">
                         <label for="name" class="control-label">Name</label>

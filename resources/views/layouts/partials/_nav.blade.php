@@ -31,9 +31,9 @@
                         <li><a class="dropdown-item text-dark" href="https://Larachat.com">Larachat</a></li>
                     </ul>
                 </li>
-                <li class="nav-item {{ set_active_route('contact.create') }}">
-                    <a class="nav-link {{ set_textdark_route('contact.create') }}"
-                        href="{{ route('contact.create') }}">Contact</a>
+                <li class="nav-item {{ set_active_route('contact_path') }}">
+                    <a class="nav-link {{ set_textdark_route('contact_path') }}"
+                        href="{{ route('contact_path') }}">Contact</a>
                 </li>
             </ul>
             <ul class="navbar-nav me-auto mb-2 mb-md-0 float-right">
